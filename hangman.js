@@ -10,7 +10,6 @@ var incorrectLetter;
 var letterGuessed;
 
 
-
 function startGame() {
     wins = 0;
     losses = 0;
@@ -19,14 +18,14 @@ function startGame() {
     incorrectLetter = [];
     letterGuessed = 0;
     var ulelement = $("<ul>");
-        ulelement.addClass("word"); //<ul class="word"></ul>
-    for(var i = 0; i < word.length; i++) {
-      var lielement = $("<li>_______</li>");
-      lielement.addClass(word[i]); //<li class="m">_______</li>
-      ulelement.append(lielement);
-      console.log("ul:", ulelement.html());
+    ulelement.addClass("word"); //<ul class="word"></ul>
+    for (var i = 0; i < word.length; i++) {
+        var lielement = $("<li>_______</li>")
+        lielement.addClass(word[i]); //<li class="m">_______</li>
+        ulelement.append(lielement);
+        console.log("ul:", ulelement.html());
     }
-  $('body').append(ulelement);
+    $('body').append(ulelement);
 }
 
 startGame();
