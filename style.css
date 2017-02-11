@@ -2,7 +2,7 @@
 
 
 body {
-
+    margin-top: 70px;
     background-image: url("retina_wood/backgroundimage.png");
 
 }
@@ -27,5 +27,15 @@ m {
 
 h3 {
 text-align:  center;
+
+}
+
+li
+{
+margin-top: 700px;
+display:  inline;
+list-style-type: none;
+margin-right: 100px;
+margin-left:  100px;
 
 }
