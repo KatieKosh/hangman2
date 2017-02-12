@@ -1,10 +1,13 @@
 
 
 
+
+
+
 body {
     margin-top: 70px;
     background-image: url("retina_wood/backgroundimage.png");
-
+    border: 20px solid black;
 }
 
 
@@ -22,6 +25,11 @@ text-align: center;
 
 m {
   display:  inline;
+
+}
+
+lielement {
+  font-size: 15px;
 
 }
 
